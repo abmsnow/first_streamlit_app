@@ -19,8 +19,6 @@ import pandas
 
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
-## ask the streamlit library to display it on the page by typing:
-streamlit.dataframe(my_fruit_list)
 
 ## Add a user interactive widget called a Multi-select that will allow users to pick the fruits they want in their smoothies.
 
